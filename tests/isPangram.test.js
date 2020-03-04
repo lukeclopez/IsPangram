@@ -1,4 +1,4 @@
-import { findMissingLetters, isPangram } from "../src/isPangram";
+import { findMissingLetters, isPangram } from "../src/utils";
 
 const pangram = "Sphinx of black quartz, judge my vow.";
 
