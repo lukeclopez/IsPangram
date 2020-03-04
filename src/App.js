@@ -1,11 +1,13 @@
 import React from "react";
-import "./App.css";
+
+import PangramField from "./pangramField";
+import "./style.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
+    <>
+      <PangramField />
+    </>
   );
 }
 
