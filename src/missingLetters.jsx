@@ -5,11 +5,14 @@ const MissingLetters = ({ sentence }) => {
   const letters = findMissingLetters(sentence);
 
   return (
-    <div className="missing__letters">
-      {letters.map(c => (
-        <span>{c}</span>
-      ))}
-    </div>
+    <>
+      <span className="missing">Missing: </span>
+      <span className="missing__letters">
+        {letters.map(c => (
+          <span key={c}>{c}</span>
+        ))}
+      </span>
+    </>
   );
 };
 

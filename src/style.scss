@@ -68,7 +68,13 @@ $gray: #9b9b9b;
   }
 }
 
-.missing__letter {
+.missing {
+  color: $gray;
+  font-size: 0.75em;
+}
+
+.missing__letters {
+  margin-left: 1em;
   letter-spacing: 0.75em;
 }
 
